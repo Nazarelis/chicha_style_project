@@ -1,1 +1,1 @@
-# chicha_style_project
+# Chicha Style
