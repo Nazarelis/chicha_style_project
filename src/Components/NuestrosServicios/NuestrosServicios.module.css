@@ -10,26 +10,28 @@
 
 .container img{
     position: absolute;
-    opacity: 0.3;
-    z-index: 0;
-    object-fit: cover;
+    opacity: 0.5;
+    width: 50%;
 }
 
 .container h2{
-    padding-top: 1rem;
+    z-index: 1;
+    padding-top: 2rem;
     padding-bottom: 1rem;
     color: #ffffff;
     font-family: 'Satisfy', cursive;
 }
 
 .container h3{
-    padding-bottom: 1rem;
-    padding-top: 1rem;
+    z-index: 1;
+    padding-bottom: 3rem;
+    padding-top: 3rem;
     color: #fff323;
     font-family: 'Arial', sans-serif;
 }
 
 .container p{
+    z-index: 1;
     color: #ffffff;
     font-family: 'Arial', sans-serif;
 }

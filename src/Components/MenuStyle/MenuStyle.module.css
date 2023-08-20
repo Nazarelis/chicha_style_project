@@ -1,6 +1,7 @@
 @import url('https://fonts.googleapis.com/css2?family=Satisfy&display=swap');
 
 .container{
+    padding-top: 10rem;
     display: flex;
     flex-direction: column;
     background-color: #000000;
@@ -14,10 +15,12 @@
 }
 
 .container article{
+    padding: 4rem;
     display: flex;
     flex-direction: row;
-    justify-content: center;
+    justify-content: space-evenly;
     align-items: center;
+    z-index: 1;
 }
 
 .container article p{
@@ -28,4 +31,11 @@
 .container article h3{
     font-family: 'Arial', sans-serif;
     color: #4EBB13;
+}
+
+.fondo{
+    position: absolute;
+    height: 40rem;
+    right: 0%;
+    opacity: 0.5;
 }

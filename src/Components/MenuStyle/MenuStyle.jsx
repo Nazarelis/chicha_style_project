@@ -65,6 +65,7 @@ const MenuStyle = () => {
           <p>Gaseosas (500 ml) Agua (500 ml)</p>
         </div>
       </article>
+      <img className={style.fondo} src="../../../public/images/fondo-4.png" alt="fondo de la sección del menú" />
     </div>
   );
 };

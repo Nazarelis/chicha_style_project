@@ -3,6 +3,7 @@ import style from "./Conocenos.module.css";
 const Conocenos = () => {
   return (
     <div className={style.container}>
+      <article>
       <h2>Conocenos</h2>
       <p>
         Chicha Style Food Truck es una empresa familiar que surge para hacer
@@ -15,9 +16,11 @@ const Conocenos = () => {
         src="https://www.youtube.com/embed/sbz9z7hULds"
         title="Mercury 1957❌Food Track❌By KM X"
         frameborder="0"
-        width="1000"
+        width="50%"
         height="500"
       ></iframe>
+      </article>
+      <img src="../../../public/images/fondo-1.png" alt="fondo de la sección conocenos" />
     </div>
   );
 };

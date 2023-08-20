@@ -16,6 +16,7 @@ const NuestrosServicios = () => {
         Organizados por municipalidades y comunas. Ferias , festivales,
         recitales.
       </p>
+      <img src="../../../public/images/fondo-3.png" alt="fondo de la sección de los servicios" />
     </div>
   );
 };
