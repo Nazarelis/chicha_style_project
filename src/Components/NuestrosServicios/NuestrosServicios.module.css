@@ -1,0 +1,35 @@
+@import url('https://fonts.googleapis.com/css2?family=Satisfy&display=swap');
+
+.container{
+    padding-bottom: 1rem;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-color: #000000;
+}
+
+.container img{
+    position: absolute;
+    opacity: 0.3;
+    z-index: 0;
+    object-fit: cover;
+}
+
+.container h2{
+    padding-top: 1rem;
+    padding-bottom: 1rem;
+    color: #ffffff;
+    font-family: 'Satisfy', cursive;
+}
+
+.container h3{
+    padding-bottom: 1rem;
+    padding-top: 1rem;
+    color: #fff323;
+    font-family: 'Arial', sans-serif;
+}
+
+.container p{
+    color: #ffffff;
+    font-family: 'Arial', sans-serif;
+}

@@ -1,9 +1,16 @@
+import style from "./App.css";
+import Conocenos from "./Components/Conocenos/Conocenos.jsx";
+import MenuStyle from "./Components/MenuStyle/MenuStyle";
+import NuestrosServicios from "./Components/NuestrosServicios/NuestrosServicios.jsx";
+
 function App() {
   return (
     <>
-       <h1>Hola Mundo</h1>
+      <Conocenos />
+      <NuestrosServicios />
+      <MenuStyle />
     </>
-  )
+  );
 }
 
-export default App
+export default App;
