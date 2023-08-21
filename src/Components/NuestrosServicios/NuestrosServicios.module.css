@@ -35,3 +35,43 @@
     color: #ffffff;
     font-family: 'Arial', sans-serif;
 }
+
+@media screen and (max-width: 1300px){
+    .container{
+        padding-bottom: 0rem;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        background-color: #000000;
+    }
+    
+    .container img{
+        position: static;
+        opacity: 0.5;
+        width: 100%;
+    }
+    
+    .container h2{
+        font-size: 2rem;
+        z-index: 1;
+        padding-top: 2rem;
+        padding-bottom: 1rem;
+        color: #ffffff;
+        font-family: 'Satisfy', cursive;
+    }
+    
+    .container h3{
+        z-index: 1;
+        padding-bottom: 3rem;
+        padding-top: 3rem;
+        color: #fff323;
+        font-family: 'Arial', sans-serif;
+    }
+    
+    .container p{
+        padding-left: 1rem;
+        z-index: 1;
+        color: #ffffff;
+        font-family: 'Arial', sans-serif;
+    }
+}

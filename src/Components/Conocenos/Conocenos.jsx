@@ -12,6 +12,7 @@ const Conocenos = () => {
         amistades, poner en manifiesto todo lo aprendido y muchas ganas para
         seguir aprendiendo y sobre todo compartir RICOS SABORES.
       </p>
+      <div>
       <iframe
         src="https://www.youtube.com/embed/sbz9z7hULds"
         title="Mercury 1957❌Food Track❌By KM X"
@@ -19,6 +20,7 @@ const Conocenos = () => {
         width="50%"
         height="500"
       ></iframe>
+      </div>
       </article>
       <img src="../../../public/images/fondo-1.png" alt="fondo de la sección conocenos" />
     </div>
