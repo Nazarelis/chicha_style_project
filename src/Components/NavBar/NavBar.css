@@ -1,0 +1,17 @@
+#container-nav{
+    padding: 0%;
+    margin: 0%;
+}
+.container-fluid{
+    background-color: #000000;
+    margin: 0%;
+    padding: 0%;
+}
+
+.container-logo{
+    padding: 2%;
+
+}
+#n-it{
+    color: aliceblue;
+}
