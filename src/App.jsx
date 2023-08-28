@@ -4,6 +4,9 @@ import Slider from "./Components/Slider/Slider";
 import Conocenos from "./Components/Conocenos/Conocenos.jsx";
 import MenuStyle from "./Components/MenuStyle/MenuStyle";
 import NuestrosServicios from "./Components/NuestrosServicios/NuestrosServicios.jsx";
+import Divider from "./Components/Divider/Divider";
+import Contact from "./Components/Contact/Contact";
+import FinalDivider from "./Components/FinalDivider/FinalDivider";
 import Footer from "./Components/Footer/Footer";
 
 function App() {
@@ -14,6 +17,8 @@ function App() {
       <Conocenos />
       <NuestrosServicios />
       <MenuStyle />
+      <Divider/>
+      <FinalDivider/>
       <Footer/>
     </>
   );
