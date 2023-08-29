@@ -10,7 +10,7 @@ const navBar = () => {
                         <img id='nav-logo' src="../../../public/images/logo.png" alt="Bootstrap" width="15%" />                        </a>
                 </div>
                 <div className='container-menu'>
-                    <ul>
+                    <ul className='ul-navbar'>
                         <li>
                             <a href='#'>Conocenos</a>
                         </li>

@@ -12,14 +12,15 @@ import Footer from "./Components/Footer/Footer";
 function App() {
   return (
     <>
-      <NavBar/>
-      <Slider/>
+      <NavBar />
+      <Slider />
       <Conocenos />
       <NuestrosServicios />
       <MenuStyle />
-      <Divider/>
-      <FinalDivider/>
-      <Footer/>
+      <Divider />
+      <Contact />
+      <FinalDivider />
+      <Footer />
     </>
   );
 }

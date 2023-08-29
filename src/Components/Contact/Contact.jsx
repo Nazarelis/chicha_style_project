@@ -1,48 +1,22 @@
 import './Contact.css';
+import SocialNetworkButton from '../social-network-button/social-network-button';
+
 
 const Contact = () => {
     return (
         <>
             <div className='contact-container'>
                 <div id='title-contact'>
-                    <h1>Donde Encontrarnos</h1>
+                <h1>Donde Encontrarnos</h1>
                 </div>
                 <div className='items-contact'>
-                    <div className='item'>
-                        <a href='https://www.instagram.com/chichastyle.foodtruck/'>
-                        <img className='icon' src="../../../public/images/logo-instagram.png" />
-                        </a>
-                        <p>chichastyle.foodtruck</p>
-                    </div>
-                    <div className='item'>
-                        <a href=''>
-                        <img className='icon'  src="../../../public/images/logo-whatsapp.png" />
-                        </a>
-                        <p>351 155190185</p>
-                    </div>
-                    <div className='item'>
-                        <a href='https://www.facebook.com/chichastylefood'>
-                        <img className='icon'  src="../../../public/images/logo-facebook.png" />
-                        </a>
-                        <p>Chicha Style Food Truck</p>
-                    </div>
-                    <div className='item'>
-                        <a href="">
-                        <img className='icon'  src="../../../public/images/logo-correo.png" />
-                        </a>
-                        <p>chichastylefood@gmail.com</p>
-                    </div>
-                    <div className='item'>
-                        <a href="https://www.tiktok.com/@chicha.foodtruck">
-                        <img className='icon' src="../../../public/images/logo-tiktok.png" />
-                        </a>
-                        <p>chicha.foodtruck</p>
-                    </div>
+                    <SocialNetworkButton href='https://www.instagram.com/chichastyle.foodtruck/' detail='chichastyle.foodtruck' src='../../public/images/logo-instagram.png'/>
+                    <SocialNetworkButton href='' detail='351 155190185' src='../../../public/images/logo-whatsapp.png'/>
+                    <SocialNetworkButton href='https://www.facebook.com/chichastylefood' detail='Chicha Style Food Truck' src='../../../public/images/logo-facebook.png'/>
+                    <SocialNetworkButton href='' detail='chichastylefood@gmail.com' src='../../../public/images/logo-correo.png'/>
+                    <SocialNetworkButton href='https://www.tiktok.com/@chicha.foodtruck' detail='chicha.foodtruck' src='../../../public/images/logo-tiktok.png'/>
                 </div>
-                
-
             </div>
-
         </>
     )
 

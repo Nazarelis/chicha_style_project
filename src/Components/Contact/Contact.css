@@ -10,35 +10,27 @@
     color: #FFFFFF;
 }
 h1{
+    font-size: 3em;
     font-family: 'Satisfy', cursive;
 }
 #title-contact{
     width: 100%;
     display: flex;
     justify-content: center;
+    align-items: center;
     padding: 5% 0% 5% 0%;
 }
 .items-contact{
     width: 100%;
-    padding: 5% 0% 5% 0%;
+    padding: 1% 1% 5% 15%;
     display: grid;
     grid-template-columns: repeat(2, 1fr);
-    gap: 20px; 
-
-}
-.item{
-    width: 100%;
-    display: flex;
     justify-content: center;
     align-items: center;
 }
-.icon{
-    width: auto;
-    padding: 1% 10% 1% 1%;
-}
-.item, p{
-    text-align: center;
-    font-size: 1.5em;
-    margin: 0%;
 
+@media (max-width: 1284px) {
+    .items-contact {
+        grid-template-columns: 1fr; /* Cambiar a una sola columna */
+    }
 }

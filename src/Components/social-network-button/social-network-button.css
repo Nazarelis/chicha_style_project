@@ -1,0 +1,19 @@
+.item{
+    width: 100%;
+    padding: 2%;
+    display: flex;
+    align-items: center;
+}
+.icon-img{  
+    width: auto;
+    display: flex;
+
+    
+}
+.detailSocialNetworkButton{
+    width: 100%;
+    padding: 1% 1% 1% 10%;
+    font-size: 1.4em;
+    margin: 0%;
+    white-space: nowrap
+} 
