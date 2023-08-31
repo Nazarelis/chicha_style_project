@@ -43,7 +43,6 @@
 .container img{
     position: absolute;
     height: 20rem;
-    top: 0%;
     right: 0%;
     opacity: 0.5;
 }
@@ -86,7 +85,6 @@
     .container img{
         position: absolute;
         height: 10rem;
-        top: 0%;
         right: 0%;
         opacity: 0.5;
     }
