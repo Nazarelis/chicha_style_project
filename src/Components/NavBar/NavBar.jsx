@@ -6,25 +6,26 @@ const navBar = () => {
         <> 
             <nav>
                 <div className="container-logo">
-                    <a href="#">
-                        <img id='nav-logo' src="../../../public/images/logo.png" alt="Bootstrap" width="15%" />                        </a>
+                   
+                   <img id='nav-logo' src="../../../public/images/logo.png" alt="Bootstrap" width="15%" />                        
+                 
                 </div>
                 <div className='container-menu'>
                     <ul className='ul-navbar'>
                         <li>
-                            <a href='#'>Conocenos</a>
+                            <a href='#seccion-conocenos'>Conocenos</a>
                         </li>
                         <li>
-                            <a href='#'>Nuestros Servicios</a>
+                            <a href='#seccion-servicios'>Nuestros Servicios</a>
                         </li>
                         <li>
-                            <a href='#'>Menu</a>
+                            <a href='#seccion-menu'>Menu</a>
                         </li>
                         <li>
-                            <a href='#'>Galeria</a>
+                            <a href='#seccion-galeria'>Galeria</a>
                         </li>
                         <li>
-                            <a href='#'>Contacto</a>
+                            <a href='#seccion-contact'>Contacto</a>
                         </li>
                     </ul>
 

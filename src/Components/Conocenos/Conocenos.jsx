@@ -2,7 +2,7 @@ import style from "./Conocenos.module.css";
 
 const Conocenos = () => {
   return (
-    <div className={style.container}>
+    <div className={style.container} id="seccion-conocenos">
       <article>
       <h2>Conocenos</h2>
       <p>

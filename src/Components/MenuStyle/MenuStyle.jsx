@@ -2,7 +2,7 @@ import style from "./MenuStyle.module.css";
 
 const MenuStyle = () => {
   return (
-    <div className={style.container}>
+    <div className={style.container} id="seccion-menu">
       <h2>Menu Style</h2>
       <article>
         <img src="../../../public/images/menu-1.png" alt="" />

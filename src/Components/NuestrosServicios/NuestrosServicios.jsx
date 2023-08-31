@@ -2,7 +2,7 @@ import style from "./NuestrosServicios.module.css";
 
 const NuestrosServicios = () => {
   return (
-    <div className={style.container}>
+    <div className={style.container} id="seccion-servicios">
       <h2>Nuestros Servicios</h2>
       <h3>SUCURSAL</h3>
       <p>Av. Caraffa 2858, barrio Villa Cabrera.</p>
