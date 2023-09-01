@@ -9,21 +9,21 @@ const GaleriaInstagram = () => {
           <a href="https://www.instagram.com/p/Cu2LVvsxOvT/">
             <img
               src="/assets/imagen-galeria-1.jpg"
-              class="card-img-top"
+              className="card-img-top"
               alt="carrito de foodtruck de Chicha Style"
             />
           </a>
           <a href="https://www.instagram.com/p/CrJ3gkzOEIX/">
             <img
               src="/assets/imagen-galeria-2.jpg"
-              class="card-img-top"
+              className="card-img-top"
               alt="carrito animado de foodtruck de Chicha Style"
             />
           </a>
           <a href="https://www.instagram.com/p/CrMLTWGOQ8m/">
             <img
               src="/assets/imagen-galeria-3.jpg"
-              class="card-img-top"
+              className="card-img-top"
               alt="encuesta de calidad de Chicha Style"
             />
           </a>
@@ -32,21 +32,21 @@ const GaleriaInstagram = () => {
           <a href="https://www.instagram.com/p/CrOPuqIO96a/">
             <img
               src="/assets/imagen-galeria-4.jpg"
-              class="card-img-top"
+              className="card-img-top"
               alt="sigue a chicha style en sus redes"
             />
           </a>
           <a href="https://www.instagram.com/p/CgzUrDrOM2W/">
             <img
               src="/assets/imagen-galeria-5.jpg"
-              class="card-img-top"
+              className="card-img-top"
               alt="imagen del foodtruck de Chicha"
             />
           </a>
           <a href="https://www.instagram.com/p/CsFY0EkMllg/">
             <img
               src="/assets/imagen-galeria-6.jpg"
-              class="card-img-top"
+              className="card-img-top"
               alt="evento de Chicha Style"
             />
           </a>

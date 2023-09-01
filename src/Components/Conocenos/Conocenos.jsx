@@ -16,7 +16,7 @@ const Conocenos = () => {
       <iframe
         src="https://www.youtube.com/embed/sbz9z7hULds"
         title="Mercury 1957❌Food Track❌By KM X"
-        frameborder="0"
+        frameBorder="0"
         width="50%"
         height="500"
       ></iframe>
