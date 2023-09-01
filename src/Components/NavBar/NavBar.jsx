@@ -7,7 +7,7 @@ const navBar = () => {
             <nav>
                 <div className="container-logo">
                    
-                   <img id='nav-logo' src="../../../public/images/logo.png" alt="Bootstrap" width="15%" />                        
+                   <img id='nav-logo' src="images/logo.png" alt="Bootstrap" width="15%" />                        
                  
                 </div>
                 <div className='container-menu'>
