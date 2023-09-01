@@ -18,3 +18,9 @@
     margin: 0%;
     white-space: nowrap
 } 
+
+@media (max-width: 500px) {
+    .detailSocialNetworkButton{
+        padding: 0%;
+    }
+}
