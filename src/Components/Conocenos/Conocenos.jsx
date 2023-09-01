@@ -22,7 +22,7 @@ const Conocenos = () => {
       ></iframe>
       </div>
       </article>
-      <img src="../../../public/images/fondo-1.png" alt="fondo de la sección conocenos" />
+      <img src="/assets/fondo-1.png" alt="fondo de la sección conocenos" />
     </div>
   );
 };

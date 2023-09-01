@@ -30,9 +30,9 @@ h1{
 }
 
 
-@media (max-width: 641px) {
+@media (max-width: 1011px) {
     .items-contact {
         padding: 5%;
-        grid-template-columns: 1fr; /* Cambiar a una sola columna */
+        grid-template-columns: 1fr; 
     }
 }

@@ -5,7 +5,7 @@ const MenuStyle = () => {
     <div className={style.container} id="seccion-menu">
       <h2>Menu Style</h2>
       <article>
-        <img src="../../../public/images/menu-1.png" alt="HAMBURGUESA COMPLETA" />
+        <img src="/assets/menu-1.png" alt="HAMBURGUESA COMPLETA" />
         <div>
           <h3>HAMBURGUESA COMPLETA</h3>
           <p>
@@ -16,7 +16,7 @@ const MenuStyle = () => {
         </div>
       </article>
       <article>
-        <img src="../../../public/images/menu-2.png" alt="HAMBURGUESA VEGETARIANA" />
+        <img src="/assets/menu-2.png" alt="HAMBURGUESA VEGETARIANA" />
         <div>
           <h3>HAMBURGUESA VEGETARIANA</h3>
           <p>
@@ -27,7 +27,7 @@ const MenuStyle = () => {
         </div>
       </article>
       <article>
-        <img src="../../../public/images/menu-3.png" alt="HAMBURGUESA BUFALO" />
+        <img src="/assets/menu-3.png" alt="HAMBURGUESA BUFALO" />
         <div>
           <h3>HAMBURGUESA BUFALO</h3>
           <p>
@@ -38,7 +38,7 @@ const MenuStyle = () => {
         </div>
       </article>
       <article>
-        <img src="../../../public/images/menu-4.png" alt="CONO DE PAPAS" />
+        <img src="/assets/menu-4.png" alt="CONO DE PAPAS" />
         <div>
           <h3>CONO DE PAPAS</h3>
           <p>
@@ -48,7 +48,7 @@ const MenuStyle = () => {
         </div>
       </article>
       <article>
-        <img src="../../../public/images/menu-5.png" alt="BANDEJA DE PAPAS" />
+        <img src="/assets/menu-5.png" alt="BANDEJA DE PAPAS" />
         <div>
           <h3>BANDEJA DE PAPAS</h3>
           <p>
@@ -59,13 +59,13 @@ const MenuStyle = () => {
         </div>
       </article>
       <article>
-        <img src="../../../public/images/menu-6.png" alt="BEBIDAS" />
+        <img src="/assets/menu-6.png" alt="BEBIDAS" />
         <div>
           <h3>BEBIDAS</h3>
-          <p>Gaseosas (500 ml) Agua (500 ml)</p>
+          <p>Gaseosas (500 ml) <br/> Agua (500 ml)</p>
         </div>
       </article>
-      <img className={style.fondo} src="../../../public/images/fondo-4.png" alt="fondo de la sección del menú" />
+      <img className={style.fondo} src="/assets/fondo-4.png" alt="fondo de la sección del menú" />
     </div>
   );
 };

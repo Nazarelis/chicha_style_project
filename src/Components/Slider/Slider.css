@@ -1,3 +1,18 @@
+@import url('https://fonts.googleapis.com/css2?family=Satisfy&display=swap');
+
 #carouselExampleIndicators{
+    display: flex;
+    justify-content: center;
+    flex-wrap: nowrap;
     padding: 0.5% 0% 0.5% 0%;
+
+    text-align: center;
+}
+.carousel-control-next{
+    width: auto;
+    padding: 4%;
+}
+.carousel-control-prev{
+    width: auto;
+    padding: 4%;
 }
